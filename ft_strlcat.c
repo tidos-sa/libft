@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*nao terminado*/
+
 #include "libft.h"
 
 void *strlcpy(char *dest, const char *src, size_t size)
