@@ -1,37 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/27 20:38:36 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/05 15:25:00 by tidos-sa         ###   ########.fr       */
+/*   Created: 2024/10/05 16:03:54 by tidos-sa          #+#    #+#             */
+/*   Updated: 2024/10/05 16:14:21 by tidos-sa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *strlcpy(char *dest, const char *src, size_t size)
+int ft_toupper(int c)
 {
-	size_t len_dest = ft_strlen(dest);
-	size_t space_after = size - len_dest -1;
-
-	int i = 0;
-
-	while (i < space_after && src[i] != '\0')
+	if (c >= 'a' && c <= 'z')
 	{
-		dest[len_dest + i] = src[i];
-		i++;
+		c -= 32;
 	}
-	dest[len_dest + i] = '\0';
+	return c;
 }
-/*
-int main(void)
-{
-	char dest[50] = "hello";
-	char src[] = "42!";
+/*int main() {
+    // Array de caracteres
+    char input[] = {'A', 'A', '	', '!', 'e', 'E', '\0'};  // O '\0' é o terminador da string
 
-	strlcpy(dest,src,sizeof(dest));
-	printf("%s",dest);
+    // Converte cada caractere do array para maiúscula
+    for (int i = 0; input[i] != '\0'; i++) {
+        input[i] = (char)ft_toupper((int)input[i]);
+    }
+
+    printf("A string em maiúsculas é: %s\n", input);
+
+    return 0;
 }*/

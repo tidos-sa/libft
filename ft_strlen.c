@@ -6,11 +6,11 @@
 /*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 14:53:51 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/09/24 15:03:02 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/05 14:26:38 by tidos-sa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *c)
+int ft_strlen(const char *c)
 {
 	int i;
 
