@@ -14,6 +14,7 @@
 # define LIBFT_H
 #include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int ft_isalpha(int c);
 int ft_isalnum(int c);
