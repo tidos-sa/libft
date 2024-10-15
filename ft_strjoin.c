@@ -14,8 +14,6 @@ char *ft_strjoin(char const *s1, char const *s2) {
 
     // Aloca memória para a nova string, incluindo o caractere nulo
     new_str = (char *)malloc(sizeof(char) * (len1 + len2 + 1));
-    if (!new_str)
-        return NULL; // Retorna NULL se a alocação falhar
 
     // Copia os caracteres de s1 para a nova string
     i = 0;

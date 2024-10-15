@@ -14,11 +14,14 @@
 
 void ft_putstr_fd(char *s, int fd)
 {
-	while(s[fd] != '\0')
+    if (s == NULL)
+        return;
+
+    while (*s)
 	{
-		write(1, &s[fd],1);
-		fd++;
-	}
+        write(fd, s, 1);
+        s++;
+    }
 }
 /*
 int main()
@@ -26,4 +29,5 @@ int main()
 	char s[] = "helloooo";
 	int fd = 2;
 	ft_putstr_fd(s,fd);
-}*/
+}
+*/
