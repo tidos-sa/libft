@@ -6,7 +6,7 @@
 /*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/27 19:16:08 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/20 18:37:54 by codespace        ###   ########.fr       */
+/*   Updated: 2024/10/20 19:00:07 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ void *ft_bzero(void *s, unsigned int n)
 	}
 	return s;
 }
+
 /*
 #include <stdio.h>
 
