@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void *memcpy(void *dest, const void *src, size_t n)
+void *ft_memcpy(void *dest, const void *src, size_t n)
 {
 	char *ptr_str1;
 	char *ptr_str2;
@@ -35,7 +35,7 @@ void *memcpy(void *dest, const void *src, size_t n)
 	char dest[10];
 	char *src = "hellomanos";
 
-	memcpy(dest,src,10);
+	ft_memcpy(dest,src,10);
 
 	printf("%s",dest);
 
