@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 16:22:10 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/07 17:17:04 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/20 18:47:03 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int ft_strncmp(const char *s1, const char *s2, size_t n)
 	return 0;
 }
 
+/*
 int main() 
 {
     const char *str1 = "Hello, World!";
@@ -62,3 +63,4 @@ int main()
 
     return 0;
 }
+*/

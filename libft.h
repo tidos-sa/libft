@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/27 17:15:45 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/05 14:30:28 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/20 18:52:05 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int ft_isdigit(int c);
 int ft_isprint(int c);
 int ft_strlen(const char *c);
 void ft_putstr_fd(char *s, int fd);
+int ft_atoi(const char *str)
 
 
 #endif

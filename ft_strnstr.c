@@ -37,6 +37,7 @@ char *ft_strnstr(const char *big, const char *little, size_t len)
     return NULL;
 }
 
+/*
 int main()
 {
     const char big[] = "hello meus amigos";
@@ -55,3 +56,5 @@ int main()
 
     return 0;
 }
+
+*/

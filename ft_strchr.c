@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/05 17:25:26 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/05 18:02:10 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/20 18:43:51 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-#include <stdio.h>
 
 char *ft_strchr(const char *c, int to_find)
 {
@@ -30,6 +28,7 @@ char *ft_strchr(const char *c, int to_find)
 	return (char *)NULL;
 }
 
+/*
 int main() {
     const char *texto = "Hello, world!";
     char *resultado = ft_strchr(texto, 'o');
@@ -43,3 +42,5 @@ int main() {
     return 0;
 }
 
+
+*/

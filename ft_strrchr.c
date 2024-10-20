@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 14:23:05 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/07 15:31:49 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/20 18:47:30 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ char *ft_strrchr(const char *s, int c)
 
 	return NULL;
 }
+
 
 int main() {
     const char *str = "Hello, world!";

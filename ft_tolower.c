@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/05 16:15:20 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/10/05 16:18:17 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/20 18:51:38 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int ft_tolower(int c)
 	}
 	return c;
 }
-
+/*
 int main() {
     // Array de caracteres
     char input[] = {'A', 'A', ' ', '!', 'e', 'E', '\0'};  // O '\0' é o terminador da string
@@ -34,3 +34,5 @@ int main() {
 
     return 0;
 }
+
+*/

@@ -11,7 +11,7 @@ void *ft_memset(void *s, int c, unsigned int n)
     }
     return s;
 }
-
+/*
 #include <stdio.h>
 
 int main() {
@@ -29,3 +29,4 @@ int main() {
 
     return 0;
 }
+*/

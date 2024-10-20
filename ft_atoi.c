@@ -3,7 +3,7 @@
 
 int ft_atoi(const char *str) {
     int i = 0;
-    int sign = 1;  // Para determinar o sinal do número
+    int sign = 1;
     int result = 0;
 
     // Ignora os espaços em branco no início

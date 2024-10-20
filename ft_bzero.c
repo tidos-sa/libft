@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tidos-sa <tidos-sa@student.42.rio>         +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/27 19:16:08 by tidos-sa          #+#    #+#             */
-/*   Updated: 2024/09/27 19:38:05 by tidos-sa         ###   ########.fr       */
+/*   Updated: 2024/10/20 18:37:54 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void *ft_bzero(void *s, unsigned int n)
 {
@@ -25,7 +27,7 @@ void *ft_bzero(void *s, unsigned int n)
 	}
 	return s;
 }
-
+/*
 #include <stdio.h>
 
 int main(void)
@@ -45,3 +47,5 @@ int main(void)
 	}
 	return 0;
 }
+
+*/
